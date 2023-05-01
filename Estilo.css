@@ -118,7 +118,6 @@ h3 {
 
 #herramientas {
 display: none;
-border-radius: 5px;
 border-top: solid 2px #f78f35a8; 
 border-bottom: solid 2px #f78f35a8;
 padding-bottom: 2%;
@@ -362,6 +361,7 @@ button {
   width: 22%;
   font-size: 70%;
   margin-left: 75%;
+  margin-bottom: 3%;
 }
 
 /*Estilos de icono de listas*/
@@ -519,7 +519,10 @@ width: 7%;
 #cancelar {
   margin-inline-start: 95%;
 }
-
+#whatsapp{
+  margin-left: 1%;
+  margin-right: 2%;
+}
 
 #final {
   margin-top: -10%;
