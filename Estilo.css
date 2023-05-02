@@ -523,8 +523,7 @@ width: 7%;
   margin-inline-start: 95%;
 }
 #whatsapp{
-  margin-left: 1%;
-  width: 9%;
+  margin-left: 8%;
 }
 
 #final {
@@ -533,7 +532,6 @@ width: 7%;
 }
 footer {
   font-size:67%;
-  text-align: start;
 }
 
 #imprimir {
@@ -563,21 +561,23 @@ footer {
     footer {
       font-size: 85%;
     }
-
     }
    
-
+    @media only screen and (min-width:691px) {
+      #divwhatsapp {
+        margin-top: -11%;
+      }
+      
+    }
     @media only screen and (min-width:1200px) and (max-width:1800px) {
       #seccion2 {
     background-image: url(imagenes/c7.png);
     }
     #whatsapp {
       width: 5%;
-      margin-left: 2%;
+      margin-left: 8%;
     }
-    #whatsapp:hover {
-      width: 6%;
-    }
+   
     #imprimir {
       width: 15%;
       margin-left: 82%;
