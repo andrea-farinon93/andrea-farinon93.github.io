@@ -308,14 +308,10 @@ button {
   margin-left: -30%;
  }
   
- #whatsapp {
-  margin-left: 2%;
-  margin-top: 0%;
-  width: 7%;
+  #whatsapp {
+  margin-left: 7%;
+  width: 30%;
   border-radius: 50%;
-  margin-top: -2%;
-  position: absolute;
-  z-index: 3;
   cursor: pointer;
   animation-name: mover;
   animation-duration: 2s;
@@ -323,15 +319,22 @@ button {
   animation-timing-function: ease-in;
 }
 
+
 @keyframes mover {
 
-  50% { margin-top: -5px}
-  100% {margin-bottom: -5px}
+  50% { margin-top: -12%}
+  100% {margin-top: -5%}
+}
+
+#divwhatsapp {
+  justify-content: right;
+  position: absolute;
+  z-index: 3;
+  margin-top: -15%;
 }
 
 #whatsapp:hover {
   animation: none;
-  width: 9%;
 }
  
 
@@ -361,7 +364,7 @@ button {
   width: 22%;
   font-size: 70%;
   margin-left: 75%;
-  margin-bottom: 3%;
+  margin-bottom: 10%;
 }
 
 /*Estilos de icono de listas*/
