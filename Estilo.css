@@ -230,15 +230,17 @@ button {
 }
 
 
-  h3 button {
-    width: 10%;
+  .boton {
+    margin-block-start: -10%;
+    border-radius: 4px;
+    width: 25%;
     animation-duration: 4s;
     animation: move linear 2000ms infinite;  
 }
 
 @keyframes move {
   0% {
-    text-shadow:
+    box-shadow:
       4px -4px 0 rgba(255, 136, 0, 0.637), 
       3px -3px 0 rgba(255, 136, 0, 0.637), 
       2px -2px 0 rgba(255, 136, 0, 0.637), 
@@ -250,7 +252,7 @@ button {
     ;
   }
   25% {    
-    text-shadow:      
+    box-shadow:      
       -4px -4px 0 rgb(221, 104, 143),
       -3px -3px 0 rgb(221, 104, 143),
       -2px -2px 0 rgb(221, 104, 143),
@@ -262,7 +264,7 @@ button {
     ;
   }
   50% {
-    text-shadow:
+    box-shadow:
       -4px 4px 0 rgba(255, 136, 0, 0.637), 
       -3px 3px 0 rgba(255, 136, 0, 0.637), 
       -2px 2px 0 rgba(255, 136, 0, 0.637), 
@@ -274,7 +276,7 @@ button {
     ;
   }
   75% {
-    text-shadow:
+    box-shadow:
       4px 4px 0 rgb(221, 104, 143),
       3px 3px 0 rgb(221, 104, 143),
       2px 2px 0 rgb(221, 104, 143),
@@ -286,7 +288,7 @@ button {
     ;
   }
   100% {
-    text-shadow:
+    box-shadow:
       4px -4px 0 rgba(255, 136, 0, 0.637), 
       3px -3px 0 rgba(255, 136, 0, 0.637), 
       2px -2px 0 rgba(255, 136, 0, 0.637), 
@@ -299,13 +301,14 @@ button {
   }  
 }
 
-  h3 button:hover{
+  .boton{
     animation: none;
     color: rgb(202, 82, 12);
   }
 
  .curso {
-  margin-left: -30%;
+  margin-left: -17%;
+  font-size: medium;
  }
   
   #whatsapp {
@@ -574,7 +577,6 @@ footer {
     background-image: url(imagenes/c7.png);
     }
     #whatsapp {
-      width: 5%;
       margin-left: 8%;
     }
    
