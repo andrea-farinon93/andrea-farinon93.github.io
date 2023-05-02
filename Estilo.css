@@ -520,8 +520,8 @@ width: 7%;
   margin-inline-start: 95%;
 }
 #whatsapp{
-  margin-left: 1%;
-  margin-right: 2%;
+  margin-left: 2%;
+  width: 9%;
 }
 
 #final {
@@ -530,6 +530,8 @@ width: 7%;
 }
 footer {
   font-size:67%;
+  text-align: start;
+  padding-left: 4%;
 }
 
 #imprimir {
