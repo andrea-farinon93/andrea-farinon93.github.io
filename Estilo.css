@@ -621,7 +621,7 @@ footer {
         opacity: 0;
       }
 
-      #titulo, #abrir, #abrir1, #whatsapp, #imprimir {
+      #titulo, .boton, #whatsapp, #imprimir {
         display: none;
       }
 
