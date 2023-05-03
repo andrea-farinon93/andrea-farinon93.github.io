@@ -301,7 +301,7 @@ button {
   }  
 }
 
-  .boton{
+  .boton:hover{
     animation: none;
     color: rgb(202, 82, 12);
   }
