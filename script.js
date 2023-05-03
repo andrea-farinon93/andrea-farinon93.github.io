@@ -1,6 +1,6 @@
 //mostrar y ocultar titulo y analítico
 
-var abrir=document.getElementById('titulo');
+var abrir=document.getElementById('abrirtitulo');
 
 abrir.addEventListener("click", function() {
   document.getElementById('carouseltitulo').style.display= 'block';
