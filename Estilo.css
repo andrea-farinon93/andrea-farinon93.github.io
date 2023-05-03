@@ -301,7 +301,7 @@ button {
   }  
 }
 
-  .boton:hover{
+  .boton:focus{
     animation: none;
     color: rgb(202, 82, 12);
   }
