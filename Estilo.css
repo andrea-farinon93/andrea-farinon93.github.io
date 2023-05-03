@@ -618,7 +618,7 @@ footer {
       }
 
       #carouseltitulo, #carouselcursos, #cancelar {
-        opacity: 0;
+         display: none !important;
       }
 
       #titulo, .boton, #whatsapp, #imprimir {
