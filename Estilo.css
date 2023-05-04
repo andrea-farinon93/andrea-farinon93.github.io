@@ -136,7 +136,10 @@ hr {
     red 100%     
 );
 }
-
+#flecha {
+    font-weight: 400;
+    font-size: 22px;
+   }
 #cursosprint {
   display: none;
 }
