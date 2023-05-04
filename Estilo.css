@@ -177,7 +177,7 @@ button {
 
 
 #titulo {
-  width: 300px;
+  width: 330px;
   margin-bottom: 5%;
   font-size: 3em !important;
   cursor: pointer;
@@ -185,7 +185,10 @@ button {
   cursor: pointer;
   }
 
-
+#acceda {
+  font-weight: 500;
+  font-style: italic;
+}
 #titulo {
     animation-name: bordear;
     animation-duration: 2s;
@@ -231,9 +234,11 @@ button {
 
 
   .boton {
+    font-weight: 500;
+    font-size: 80%;
+    width: 15%;
     margin-block-start: -10%;
     border-radius: 4px;
-    width: 25%;
     animation-duration: 4s;
     animation: move linear 2000ms infinite;  
 }
@@ -502,9 +507,12 @@ h3 {
   background-size: 110%;
 }
 #titulo{
-  width: 50%;
-  margin-left: 20%;
+  width: 80%;
 }
+.boton {
+  width: 25%;
+}
+	
 #carouselcursos, #carouseltitulo {
   width: 98%
 }
@@ -535,6 +543,11 @@ width: 7%;
 }
 footer {
   font-size:67%;
+  margin-top: 12%;
+}
+
+#acceda {
+  font-size: 88%;
 }
 
 #imprimir {
@@ -563,6 +576,9 @@ footer {
     }
     footer {
       font-size: 85%;
+    }
+    .boton {
+      width: 25%;
     }
     }
    
