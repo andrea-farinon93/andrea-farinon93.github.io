@@ -615,13 +615,13 @@ footer {
         width: 30%;
       }
       h1 {
-        font-size: 1em !important;
+        font-size: 2em !important;
       }
       #seccion1{
-        padding-top: 40%;
+        padding-top: 45%;
       }
       #seccion2{
-        padding-top: 15%;
+        padding-top: 25%;
       }
       #telefono {
         display: block;
