@@ -650,6 +650,11 @@ footer {
 
     }
 
+ @media only screen and (min-width:576px), print {
+#seccion1, #seccion2 {	 
+	  padding-top: 22%;
+}
+
    
     
 
