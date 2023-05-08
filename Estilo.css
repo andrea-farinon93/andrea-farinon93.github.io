@@ -612,16 +612,16 @@ footer {
 
     @media print {
       #perfil {
-        width: 40%;
+        width: 20%;
       }
       h1 {
-        font-size: 2em;
+        font-size: 1em;
       }
       #seccion1{
-        padding-top: 60%;
+        padding-top: 30%;
       }
       #seccion2{
-        padding-top: 10%;
+        padding-top: 30%;
       }
       #telefono {
         display: block;
@@ -650,12 +650,7 @@ footer {
 
     }
 
- @media only screen and (min-width:576px) print {
-	 
-#seccion1, #seccion2 {	 
-	  padding-top: 22% !important;
-		 }
-}
+
 
    
     
