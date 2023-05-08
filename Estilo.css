@@ -421,14 +421,12 @@ button {
      }
    
     #carouseltitulo img {
-     margin-left: auto;
-     margin-right: auto;
+     margin-left: 14%;
      width: 73% !important;
    }
 
    #carouselcursos img {
-     margin-left: auto;
-     margin-right: auto;
+     margin-left: 17%;
      width: 65% !important;
    }
 
@@ -525,9 +523,11 @@ width: 7%;
 } 
  #carouseltitulo img {
   width: 86% !important;
+  margin-left: 7%;
 }
 #carouselcursos img{
   width: 65% !important;
+  margin-left: 17%;
 }
 
 #cerrar, #close {
