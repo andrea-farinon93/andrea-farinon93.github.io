@@ -650,11 +650,12 @@ footer {
 
     }
 
- @media print and (min-width:576px){
+ @media print and (orientation: landscape){
 	 
 #seccion1, #seccion2 {	 
 	  padding-top: 22%;
-		 }}
+		 }
+}
 
    
     
