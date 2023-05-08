@@ -612,16 +612,16 @@ footer {
 
     @media print {
       #perfil {
-        width: 20%;
+        width: 30%;
       }
       h1 {
-        font-size: 1em;
+        font-size: 1em !important;
       }
       #seccion1{
-        padding-top: 30%;
+        padding-top: 40%;
       }
       #seccion2{
-        padding-top: 30%;
+        padding-top: 15%;
       }
       #telefono {
         display: block;
