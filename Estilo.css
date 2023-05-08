@@ -653,7 +653,7 @@ footer {
  @media print and (orientation: landscape){
 	 
 #seccion1, #seccion2 {	 
-	  padding-top: 22%;
+	  padding-top: 22% !important;
 		 }
 }
 
