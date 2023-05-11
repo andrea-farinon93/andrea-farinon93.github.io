@@ -611,43 +611,13 @@ footer {
     /*estilos y posición de elementos para impresión*/
 
     @media print {
-      #perfil {
-        width: 30%;
-      }
-      h1 {
-        font-size: 2em !important;
-      }
-      #seccion1{
-        padding-top: 45%;
-      }
-      #seccion2{
-        padding-top: 25%;
-      }
-      #telefono {
-        display: block;
-      }
-
-      #herramientas {
-        display: block;
-        border: 0px;
-      }
-
-      #cursosprint {
-        display: block;
-      }
-
-      #carouseltitulo, #carouselcursos, #cancelar {
-         display: none !important;
-      }
-
-      #titulo, .boton, #whatsapp, #imprimir, #acceda {
-        display: none;
-      }
-
-      #seccion2, footer {
-        font-size: 13px;
-      }
-
+     #encabezado1,#seccion1, #seccion2, #final,#carouselcursos, #carouseltitulo,#telefono, #divwhatsapp, #imprimir {
+     display: none !important;
+     }
+     #impresion{
+     display: block !important;
+     width: 100%;
+     }
     }
 
 
